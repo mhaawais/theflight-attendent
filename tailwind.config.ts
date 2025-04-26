@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['MyCustomFont', 'sans-serif'], // You can use 'custom' as class
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mycolor: '#e0d6bd',
+        mynew: '#eeedeb',
+        bgcolor: '#d5ccb4',
       },
     },
   },
