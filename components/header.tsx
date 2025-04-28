@@ -1,16 +1,33 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="bg-white w-full border-b shadow-md">
+    // <header className={`bg-white w-full border-b md:sticky md:top-0 md:z-50 transition-shadow duration-300 ${scrolled ? 'shadow-md' : ''}`}>
+      
+    <header className={`bg-white w-full border-b sticky top-0 z-50 transition-shadow duration-300 md:static ${scrolled ? 'shadow-md' : ''}`}>
+
       {/* Desktop Header */}
       <div className="hidden lg:flex items-center justify-between px-10 py-6 h-[250px]">
         <div>
@@ -126,3 +143,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
