@@ -50,7 +50,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Header */}
-      <div className="flex lg:hidden items-center justify-between px-4 py-2 h-[200px]">
+      <div className="flex lg:hidden items-center justify-between px-4 py-2 h-[200px] sticky top-0 z-50 shadow-md">
         {/* Left Logo */}
         <a href="/" className="relative w-[120px] h-[100px]">
           <Image
