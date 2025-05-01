@@ -17,6 +17,8 @@ const config: Config = {
         mycolor: '#e0d6bd',
         mynew: '#eeedeb',
         bgcolor: '#d5ccb4',
+        newone: '#d0d1cd',
+        blogcolor: '#f7f7f7',
       },
     },
   },
