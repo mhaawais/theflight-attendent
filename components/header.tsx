@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,9 +61,11 @@ const Header = () => {
 
         <div>
           {/* Right - Large Styled Button */}
+          <Link href={"https://www.amazon.com/Flight-Attendant-Report-Real-Tales/dp/B0F68L1269/ref=sr_1_1?crid=3T0YRJXIKG6GU&dib=eyJ2IjoiMSJ9.eMF_adW34TMyjXvoKM6wCHIjXviT87Kh6KYlLLQoakdyqZhHcI6tp33k5_H-oUuAjRtYp9yfKBq5_5sRaQ10d1HOoRmWXnGfXFjgtWbTusSGGxEf9TFOehlo3Y-I5sP7uvJKSjZ3QbxXBSe-_1RksEUa0x3t0zhvFYIoJKOZuRNecyDV1MH5lvwQK-9rNp6c.9rhTraHj2Bp7jqkm0Sewwv_-H83RGUVksvWMvrMK8QQ&dib_tag=se&keywords=the+flight+attendant+report&qid=1746466593&sprefix=the+flight+attendent+report%2Caps%2C274&sr=8-1"} target="_blank">
           <button className="bg-[#e0d6bd] px-16 py-6 rounded-full text-xl font-bold hover:brightness-90 transition-all">
             GET THE BOOK
           </button>
+          </Link>
         </div>
       </div>
 
@@ -129,12 +132,14 @@ const Header = () => {
             >
               ABOUT
             </a>
+            <Link href={"https://www.amazon.com/Flight-Attendant-Report-Real-Tales/dp/B0F68L1269/ref=sr_1_1?crid=3T0YRJXIKG6GU&dib=eyJ2IjoiMSJ9.eMF_adW34TMyjXvoKM6wCHIjXviT87Kh6KYlLLQoakdyqZhHcI6tp33k5_H-oUuAjRtYp9yfKBq5_5sRaQ10d1HOoRmWXnGfXFjgtWbTusSGGxEf9TFOehlo3Y-I5sP7uvJKSjZ3QbxXBSe-_1RksEUa0x3t0zhvFYIoJKOZuRNecyDV1MH5lvwQK-9rNp6c.9rhTraHj2Bp7jqkm0Sewwv_-H83RGUVksvWMvrMK8QQ&dib_tag=se&keywords=the+flight+attendant+report&qid=1746466593&sprefix=the+flight+attendent+report%2Caps%2C274&sr=8-1"} target="_blank">
             <button
               onClick={toggleMenu}
               className="mt-10 bg-[#e0d6bd] px-12 py-7 rounded-full text-2xl font-bold hover:brightness-90 transition-all"
             >
               GET THE BOOK
             </button>
+            </Link>
           </div>
         </div>
       )}

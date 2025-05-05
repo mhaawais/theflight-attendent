@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -24,9 +25,11 @@ const Footer = () => {
           <p className="text-lg font-serif mb-4">
             Now available in paperback and eBook from Amazon and other book sellers.
           </p>
+          <Link href={"https://www.amazon.com/Flight-Attendant-Report-Real-Tales/dp/B0F68L1269/ref=sr_1_1?crid=3T0YRJXIKG6GU&dib=eyJ2IjoiMSJ9.eMF_adW34TMyjXvoKM6wCHIjXviT87Kh6KYlLLQoakdyqZhHcI6tp33k5_H-oUuAjRtYp9yfKBq5_5sRaQ10d1HOoRmWXnGfXFjgtWbTusSGGxEf9TFOehlo3Y-I5sP7uvJKSjZ3QbxXBSe-_1RksEUa0x3t0zhvFYIoJKOZuRNecyDV1MH5lvwQK-9rNp6c.9rhTraHj2Bp7jqkm0Sewwv_-H83RGUVksvWMvrMK8QQ&dib_tag=se&keywords=the+flight+attendant+report&qid=1746466593&sprefix=the+flight+attendent+report%2Caps%2C274&sr=8-1"} target="_blank">
           <button className="bg-mycolor text-black px-8 py-4 rounded-full text-lg font-bold hover:brightness-90 transition-all">
             GET THE BOOK
           </button>
+          </Link>
         </div>
 
         {/* Section 3 - Large Logo */}
