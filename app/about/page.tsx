@@ -14,7 +14,7 @@ const About = () => {
           <div className="w-full lg:w-[30%] flex justify-center">
             <div className="w-[320px] h-[450px] relative rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/assets/images/wisdom3.jpg"
+                src="/assets/images/E-book.jpg"
                 alt="Sandra McKay"
                 layout="fill"
                 objectFit="cover"
