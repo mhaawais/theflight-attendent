@@ -8,7 +8,7 @@ const Hero3 = () => {
       <div className="border-t-4 border-black w-full mb-8 px-4"></div>
 
       {/* Heading */}
-      <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#24667c] mb-12 tracking-wide">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center text-review mb-12 tracking-wide">
         What Readers Are Saying...
       </h2>
 
@@ -20,7 +20,7 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed italic mb-4">
             "Beginning with a haunting, nightmarish scene, <span className="font-semibold">A Place for Me</span> is rich with sensory imagery, strong emotion, and often-surprising historical detail. Sandra McKay’s depiction of Dora’s journey from a harrowing displacement to a position of strength and maturity is convincing, eventful, and deeply moving."
           </p>
-          <p className="text-right font-semibold text-[#24667c]">
+          <p className="text-right font-semibold text-review">
             — Lon Otto
           </p>
           <p className="text-right text-sm mt-1 text-gray-700">
@@ -36,7 +36,7 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed mb-4">
             This is a five-part story that will appeal to people of all ages who are interested in history and the Orphan Train, and to young people seeking role models that have transitioned challenges into opportunities.
           </p>
-          <p className="text-right font-semibold text-[#24667c]">
+          <p className="text-right font-semibold text-review">
             — Terry Seward
           </p>
           <p className="text-right text-sm mt-1 text-gray-700">
@@ -52,7 +52,7 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed mb-4">
             Based on a true story, this fictionalized account humanizes the experiences of one such child, Dora Kelly. It is a fascinating tale: Dora is swept up by personal family drama, a sensationalized court trial, and her own search for love. Recommended for readers interested in popular history and juvenile fiction.
           </p>
-          <p className="text-right font-semibold text-[#24667c]">
+          <p className="text-right font-semibold text-review">
             — Jonathan Bean, Ph.D
           </p>
           <p className="text-right text-sm mt-1 text-gray-700">
@@ -68,7 +68,7 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed mb-4">
             I so enjoyed reading her story, and stories like these are a reminder of what our ancestors did and achieved to give us the lives we have today.
           </p>
-          <p className="text-right font-semibold text-[#24667c]">
+          <p className="text-right font-semibold text-review">
             — Vicky Turl
           </p>
           <p className="text-right text-sm mt-1 text-gray-700">
